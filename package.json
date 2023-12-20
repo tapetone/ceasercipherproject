@@ -1,0 +1,14 @@
+{
+  "name": "ceasercipherproject",
+  "version": "1.0.0",
+  "description": "This is a repo for my Caesar Cipher project.",
+  "main": "ciper.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

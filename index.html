@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Caesar Cipher Project</title>
+</head>
+<body>
+    <div class="mainArea">
+    <h1>Caesar Cipher</h1>
+    <label for="input">Original Message:</label><br><br>
+    <textarea id="input" rows="4" cols="50" placeholder="Enter your message..."></textarea>
+    <br><br>
+    <label for="key">Key</label>
+    <input id="key" type="number" name="key" min="0" max="26">
+    <br><br>
+    <button value="encode" id="encode">Encode</button>
+    <button value="decode" id="decode">Decode</button>
+    <br><br>
+    <label for="output">Encrypted Message:</label><br><br>
+    <textarea id="output" rows="4" cols="50" placeholder="Output" readonly></textarea>
+    </div>
+    <script src="ciper.js"></script>
+</body>
+</html>
